@@ -18,7 +18,6 @@ The dataset (`dating_app_behavior_dataset.csv`) contains anonymized behavioral f
 
 To build, train, and evaluate the models, the following Python libraries were used:
 
-```bash
 pandas
 numpy
 scikit-learn
