@@ -25,8 +25,8 @@ xgboost
 tensorflow / keras
 matplotlib (optional, for plotting)
 
-##🧠 Models Implemented
-#✅ Preprocessing Steps
+## 🧠 Models Implemented
+# ✅ Preprocessing Steps
 Null value removal
 
 Outlier detection using IQR
@@ -35,7 +35,7 @@ Feature normalization using MinMaxScaler
 
 Categorical encoding with LabelEncoder
 
-##🧪 Models Explored
+## 🧪 Models Explored
 
 Model	Status	Observations
 Logistic Regression	✅ Done	Showed signs of underfitting
@@ -50,7 +50,7 @@ Low training & testing accuracy across simpler models
 
 Failure to learn patterns in complex or noisy data
 
-##🛠️ How I Tried Fixing Underfitting
+## 🛠️ How I Tried Fixing Underfitting
 Using deeper networks in the neural model (3 hidden layers, dropout, batchnorm)
 
 Increasing model complexity in XGBoost (tuning n_estimators, max_depth, etc.)
@@ -59,7 +59,7 @@ Adding feature normalization and encoding for better signal extraction
 
 Avoiding overly simple models like Logistic Regression without polynomial features
 
-##🚀 Future Scope
+## 🚀 Future Scope
 To further improve model performance and study the underfitting-overfitting balance:
 
 Feature Engineering:
@@ -82,7 +82,7 @@ Cross-Validation:
 
 Use K-Fold CV to reduce variance and assess generalizability
 
-##🧾 Conclusion
+## 🧾 Conclusion
 This research project emphasizes that model performance is not solely about complexity but rather about balance. Logistic Regression might underfit while Neural Networks and XGBoost generalize better with appropriate data treatment and regularization.
 
 Underfitting is avoidable, but only with:
